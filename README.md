@@ -386,14 +386,14 @@ if __name__ == '__main__':
 
   - The T-Learner model outperforms the random baseline for most of the population, peaking at a gain of \~2.5 for the top 100-200 customers. This suggests the model effectively identifies customers who benefit from the intervention.
   - The curve stabilizes around 1.5 gain, indicating consistent performance across the population.
-  ![Alt text](visualizations\uplift_gain_curve.png)
+  ![Alt text](visualizations/uplift_gain_curve.png)
 
 - **Feature Importance**:
 
   - Top features include `total_day_charge`, `customer_service_calls`, `total_day_minutes`, `total_intl_charge`, and `total_eve_minutes`.
   - High `total_day_charge` and `total_day_minutes` suggest that customers with high daytime usage are more responsive to interventions.
   - `customer_service_calls` indicates that customers with more service interactions may be at higher risk of churn but also more likely to respond to retention efforts.
-  ![Alt text](visualizations\feature_importance.png)
+  ![Alt text](visualizations/feature_importance.png)
 
 ## Future Improvements
 
