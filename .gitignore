@@ -1,0 +1,17 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.log
+
+# Data & Model Artifacts
+*.csv
+models/
+plots/
+
+# OS
+.DS_Store
+Thumbs.db
